@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Einsatzzeitenrechner</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://www.arbeitsmedizin.de/files/waz/images/channel/werksarztzentrum_deutschland_gmbh_logo.svg"
+        alt="Werksarztzentrum Deutschland GmbH Logo"
+        class="waz-logo"
+      />
+      <h1 style="margin-top: 8px">Einsatzzeitenrechner</h1>
+      <ul class="progressbar">
+        <li class="active" id="progress1" data-step="1">Daten</li>
+        <li id="progress2" data-step="2">Berechnung</li>
+        <li id="progress3" data-step="3">Ergebnis</li>
+      </ul>
+      <div class="step active" id="step1">
+        <h2>Schritt 1: Unternehmensdaten</h2>
+        <div
+          class="form-grid"
+          style="
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 24px;
+            margin-bottom: 32px;
+          "
+        >
+          <div class="form-group">
+            <label for="fulltime">Vollzeit-Beschäftigte</label>
+            <input type="number" id="fulltime" />
+          </div>
+          <div class="form-group">
+            <label for="parttime20">Teilzeit > 20h</label>
+            <input type="number" id="parttime20" />
+          </div>
+          <div class="form-group">
+            <label for="parttime">Teilzeit < 20h</label>
+            <input type="number" id="parttime" />
+          </div>
+        </div>
+
+        <div
+          class="form-card"
+          style="
+            background: #f6f8fa;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 32px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+          "
+        >
+          <h3
+            style="
+              margin-top: 0;
+              margin-bottom: 18px;
+              color: #14212b;
+              font-size: 1.15em;
+            "
+          >
+            Wie möchten Sie Ihre Betreuungsgruppe festlegen?
+          </h3>
+          <div
+            class="modern-radio-group"
+            style="display: flex; flex-direction: column; gap: 8px"
+          >
+            <label class="radio-btn">
+              <input
+                type="radio"
+                class="radio-btn"
+                name="mode"
+                value="group"
+                checked
+                onchange="switchMode()"
+              />
+              <span>Betreuungsgruppe bekannt</span>
+            </label>
+            <label class="radio-btn">
+              <input
+                type="radio"
+                class="radio-btn"
+                name="mode"
+                value="wz"
+                onchange="switchMode()"
+              />
+              <span>WZ-Code bekannt oder über Branche wählen</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-variant-box" style="margin-bottom: 32px">
+          <div
+            id="mode-group"
+            class="mode-container"
+            style="margin-bottom: 16px"
+          >
+            <label for="group">Betreuungsgruppe</label>
+            <select id="group">
+              <option value="2.5">Gruppe I (2,5 h)</option>
+              <option value="1.5">Gruppe II (1,5 h)</option>
+              <option value="0.5">Gruppe III (0,5 h)</option>
+            </select>
+          </div>
+          <div
+            id="mode-wz"
+            class="mode-container"
+            style="display: none; margin-bottom: 16px"
+          >
+            <label for="branche">Übergeordnete Branche</label>
+            <select id="branche" onchange="updateSubbranche()">
+              <option value="">Bitte wählen</option>
+              <option value="A">
+                A – Land- und Forstwirtschaft, Fischerei
+              </option>
+              <option value="B">
+                B – Bergbau und Gewinnung von Steinen und Erden
+              </option>
+              <option value="C">C – Verarbeitendes Gewerbe</option>
+              <option value="D">D – Energieversorgung</option>
+              <option value="E">
+                E – Wasserversorgung, Abwasser- und Abfallentsorgung
+              </option>
+              <option value="F">F – Baugewerbe</option>
+              <option value="G">G – Handel, KFZ</option>
+              <option value="H">H – Verkehr und Lagerei</option>
+              <option value="I">I – Gastgewerbe</option>
+              <option value="J">J – Information und Kommunikation</option>
+              <option value="K">K – Finanzdienstleistungen</option>
+              <option value="L">L – Grundstücks- und Wohnungswesen</option>
+              <option value="M">M – Freiberufliche Dienstleistungen</option>
+              <option value="N">
+                N – Sonstige wirtschaftliche Dienstleistungen
+              </option>
+              <option value="O">O – Öffentliche Verwaltung</option>
+              <option value="P">P – Erziehung und Unterricht</option>
+              <option value="Q">Q – Gesundheits- und Sozialwesen</option>
+              <option value="R">R – Kunst, Unterhaltung</option>
+              <option value="S">S – Sonstige Dienstleistungen</option>
+            </select>
+            <label for="subbranche">Spezifische Betriebsart</label>
+            <select id="subbranche">
+              <option value="">Bitte zuerst Branche wählen</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button onclick="nextStep(2)">Weiter</button>
+        </div>
+      </div>
+
+      <div class="step" id="step2">
+        <h2>Schritt 2: Berechnung starten</h2>
+        <div
+          id="step2-overview"
+          class="result-box"
+          style="margin-bottom: 24px"
+        ></div>
+        <div class="buttons">
+          <button onclick="prevStep(1)">Zurück</button>
+          <button onclick="calculate()">Berechnen</button>
+        </div>
+      </div>
+
+      <div class="step" id="step3">
+        <h2>Schritt 3: Ergebnisse</h2>
+        <div id="results" class="result-box"></div>
+        <div
+          class="result-tile result-tile-full"
+          style="
+            margin: 18px 0 0 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 18px;
+            background: #f6f8fa;
+            box-shadow: 0 1px 4px #77a4b233;
+            border-radius: 10px;
+            padding: 18px 12px;
+          "
+        >
+          <div
+            style="
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              gap: 18px;
+              width: 100%;
+              justify-content: center;
+            "
+          >
+            <label
+              for="sifaPercent"
+              style="
+                font-weight: 600;
+                color: #14212b;
+                margin-bottom: 0;
+                margin-right: 8px;
+              "
+              >Sifa-Anteil (%)</label
+            >
+            <input
+              type="number"
+              id="sifaPercent"
+              min="0"
+              max="100"
+              value="80"
+              style="
+                width: 70px;
+                padding: 8px 12px;
+                border-radius: 8px;
+                border: 1px solid #77a4b2;
+                font-size: 1.08em;
+                background: #fff;
+                color: #14212b;
+                font-weight: 600;
+                box-shadow: 0 1px 4px #77a4b233;
+                margin-right: 18px;
+              "
+            />
+            <label
+              for="doctorPercent"
+              style="
+                font-weight: 600;
+                color: #14212b;
+                margin-bottom: 0;
+                margin-right: 8px;
+              "
+              >Betriebsarzt-Anteil (%)</label
+            >
+            <input
+              type="number"
+              id="doctorPercent"
+              min="0"
+              max="100"
+              value="20"
+              style="
+                width: 70px;
+                padding: 8px 12px;
+                border-radius: 8px;
+                border: 1px solid #77a4b2;
+                font-size: 1.08em;
+                background: #fff;
+                color: #14212b;
+                font-weight: 600;
+                box-shadow: 0 1px 4px #77a4b233;
+                margin-right: 18px;
+              "
+            />
+            <button
+              onclick="updateResultSplit()"
+              style="
+                padding: 12px 25px;
+                border-radius: 8px;
+                background: #77a4b2;
+                color: #fff;
+                border: none;
+                font-weight: 600;
+                font-size: 1.08em;
+                cursor: pointer;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+                transition: background 0.3s;
+              "
+            >
+              Übernehmen
+            </button>
+          </div>
+        </div>
+        <canvas id="chart" width="400" height="200"></canvas>
+        <div class="buttons">
+          <button onclick="prevStep(2)">Zurück</button>
+          <button onclick="exportCSV()">Als CSV exportieren</button>
+          <button onclick="exportPDF()">Als PDF exportieren</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
