@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Einsatzzeitenrechner</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style_Mit_Json.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://www.arbeitsmedizin.de/files/waz/images/channel/werksarztzentrum_deutschland_gmbh_logo.svg"
+        alt="Werksarztzentrum Deutschland GmbH Logo"
+        class="waz-logo"
+      />
+      <h1 class="page-title">Einsatzzeitenrechner</h1>
+      <ul class="progressbar">
+        <li class="active" id="progress1" data-step="1">Daten</li>
+        <li id="progress2" data-step="2">Berechnung</li>
+        <li id="progress3" data-step="3">Ergebnis</li>
+      </ul>
+      <div class="step active" id="step1">
+        <h2>Schritt 1: Unternehmensdaten</h2>
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="fulltime">Vollzeit-Beschäftigte</label>
+            <input type="number" id="fulltime" />
+          </div>
+          <div class="form-group">
+            <label for="parttime20">Teilzeit > 20h</label>
+            <input type="number" id="parttime20" />
+          </div>
+          <div class="form-group">
+            <label for="parttime">Teilzeit < 20h</label>
+            <input type="number" id="parttime" />
+          </div>
+        </div>
+
+        <div class="form-card">
+          <h3 class="card-title">
+            Wie möchten Sie Ihre Betreuungsgruppe festlegen?
+          </h3>
+          <div class="modern-radio-group">
+            <label class="radio-btn">
+              <input
+                type="radio"
+                class="radio-btn"
+                name="mode"
+                value="group"
+                checked
+                onchange="switchMode()"
+              />
+              <span>Betreuungsgruppe bekannt</span>
+            </label>
+            <label class="radio-btn">
+              <input
+                type="radio"
+                class="radio-btn"
+                name="mode"
+                value="wz"
+                onchange="switchMode()"
+              />
+              <span>WZ-Code bekannt oder über Branche wählen</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-variant-box">
+          <div id="mode-group" class="mode-container">
+            <label for="group">Betreuungsgruppe</label>
+            <select id="group">
+              <option value="2.5">Gruppe I - Hohe Gefährdung</option>
+              <option value="1.5">Gruppe II - Mittlere Gefährdung</option>
+              <option value="0.5">Gruppe III - Geringe Gefährdung</option>
+            </select>
+          </div>
+          <div id="mode-wz" class="mode-container" style="display: none">
+            <label for="branche">Übergeordnete Branche</label>
+            <select id="branche" onchange="updateSubbranche()">
+              <option value="">Bitte wählen</option>
+              <option value="A">
+                A – Land- und Forstwirtschaft, Fischerei
+              </option>
+              <option value="B">
+                B – Bergbau und Gewinnung von Steinen und Erden
+              </option>
+              <option value="C">C – Verarbeitendes Gewerbe</option>
+              <option value="D">D – Energieversorgung</option>
+              <option value="E">
+                E – Wasserversorgung, Abwasser- und Abfallentsorgung
+              </option>
+              <option value="F">F – Baugewerbe</option>
+              <option value="G">G – Handel, KFZ</option>
+              <option value="H">H – Verkehr und Lagerei</option>
+              <option value="I">I – Gastgewerbe</option>
+              <option value="J">J – Information und Kommunikation</option>
+              <option value="K">K – Finanzdienstleistungen</option>
+              <option value="L">L – Grundstücks- und Wohnungswesen</option>
+              <option value="M">M – Freiberufliche Dienstleistungen</option>
+              <option value="N">
+                N – Sonstige wirtschaftliche Dienstleistungen
+              </option>
+              <option value="O">O – Öffentliche Verwaltung</option>
+              <option value="P">P – Erziehung und Unterricht</option>
+              <option value="Q">Q – Gesundheits- und Sozialwesen</option>
+              <option value="R">R – Kunst, Unterhaltung</option>
+              <option value="S">S – Sonstige Dienstleistungen</option>
+            </select>
+            <label for="subbranche">Spezifische Betriebsart</label>
+            <select id="subbranche">
+              <option value="">Bitte zuerst Branche wählen</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button onclick="nextStep(2)">Weiter</button>
+        </div>
+      </div>
+
+      <div class="step" id="step2">
+        <h2>Schritt 2: Berechnung starten</h2>
+        <div id="step2-overview" class="result-box"></div>
+        <div class="buttons">
+          <button onclick="prevStep(1)">Zurück</button>
+          <button onclick="calculate()">Berechnen</button>
+        </div>
+      </div>
+
+      <div class="step" id="step3">
+        <h2>Schritt 3: Ergebnisse</h2>
+        <div id="results" class="result-box"></div>
+        <div
+          class="result-tile result-tile-full"
+          class="result-tile result-tile-full result-tile-row"
+        >
+          <div class="result-tile-row">
+            <label for="sifaPercent" class="result-label"
+              >Sifa-Anteil (%)</label
+            >
+            <input
+              type="number"
+              id="sifaPercent"
+              min="0"
+              max="100"
+              value="80"
+              class="result-input"
+            />
+            <label for="doctorPercent" class="result-label"
+              >Betriebsarzt-Anteil (%)</label
+            >
+            <input
+              type="number"
+              id="doctorPercent"
+              min="0"
+              max="100"
+              value="20"
+              class="result-input"
+            />
+            <button onclick="updateResultSplit()" class="result-btn">
+              Übernehmen
+            </button>
+          </div>
+        </div>
+        <canvas id="chart" width="400" height="200"></canvas>
+        <div class="buttons">
+          <button onclick="prevStep(2)">Zurück</button>
+          <button onclick="exportPDF()">Als PDF exportieren</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main_Mit_Json.js"></script>
+  </body>
+</html>
