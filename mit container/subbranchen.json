@@ -1,0 +1,1416 @@
+{
+  "A": [
+    {
+      "text": "01.5 Gemischte Landwirtschaft  -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "02.1 Forstwirtschaft  -  Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "02.2 Holzeinschlag  -  Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "02.4 Erbringung von Dienstleistungen für Forstwirtschaft und Holzeinschlag  -  Gruppe I - 2,5 h",
+      "value": "2.5"
+    }
+  ],
+  "B": [
+    {
+      "text": "05.1 Steinkohlenbergbau   -  Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "05.2 Braunkohlenbergbau    -  Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "06.1 Gewinnung von Erdöl  -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "06.2 Gewinnung von Erdgas  -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "07.1 Eisenerzbergbau  -  Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "07.2 NE-Metallerzbergbau  -  Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "08.11 Gewinnung von Naturwerksteinen und Natursteinen, Kalk- und Gipsstein, Kreide und Schiefer  -  Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "08.12 Gewinnung von Ton und Kaolin  -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "08.9 Sonstiger Bergbau; Gewinnung von Steinen und Erden a. n. g.   -  Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "09.1 Erbringung von Dienstleistungen für die Gewinnung von Erdöl und Erdgas -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "09.9 Erbringung von Dienstleistungen für den sonstigen Bergbau und die Gewinnung von Steinen und Erden -  Gruppe I - 2,5 h",
+      "value": "2.5"
+    }
+  ],
+  "C": [
+    {
+      "text": "10.1 Schlachten und Fleischverarbeitung - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "10.2 Fischverarbeitung  -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "10.3 Obst- und Gemüseverarbeitung  -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "10.4 Herstellung von pflanzlichen und tierischen Ölen und Fetten  -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "10.51 Milchverarbeitung (ohne Herstellung von Speiseeis)  -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "10.52.1 Industriell  -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "10.52.2 Kleingewerblich  -  Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "10.6 Mahl- und Schälmühlen, Herstellung von Stärke und Stärkeerzeugnissen -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "10.7 Herstellung von Back- und Teigwaren -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "10.81 Herstellung von Zucker -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "10.82 Herstellung von Süßwaren (ohne Dauerbackwaren) -  Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "10.89 Herstellung von sonstigen Nahrungsmitteln a. n. g. - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "10.9 Herstellung von Futtermitteln -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "11.01 Herstellung von Spirituosen -  Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "11.02 Herstellung von Traubenwein -  Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "11.05 Herstellung von Bier -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "11.06 Herstellung von Malz -  Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "11.07 Herstellung von Erfrischungsgetränken; Gewinnung natürlicher Mineralwässer - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "11.08 Herstellung von sonstigen Getränken a. n. g. - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "12.0 Tabakverarbeitung -  Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "13.1 Spinnstoffaufbereitung und Spinnerei -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "13.2 Weberei -  Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "13.3 Veredlung von Textilien und Bekleidung - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "13.91 Herstellung von gewirktem und gestricktem Stoff - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "13.92 Herstellung von konfektionierten Textilwaren (ohne Bekleidung) - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "13.93 Herstellung von Teppichen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "13.94 Herstellung von Seilerwaren - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "13.95 Herstellung von Vliesstoff und Erzeugnissen daraus (ohne Bekleidung) - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "13.96 Herstellung von technischen Textilien - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "13.99 Herstellung von sonstigen Textilwaren - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "14.1 Herstellung von Bekleidung (ohne Pelzbekleidung) - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "14.2 Herstellung von Pelzwaren - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "14.3 Herstellung von Bekleidung aus gewirktem und gestricktem Stoff - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "15.11 Herstellung von Leder und Lederfaserstoff; Zurichtung und Färben von Fellen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "15.12 Lederverarbeitung (ohne Herstellung von Lederbekleidung) - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "15.2 Herstellung von Schuhen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "16 Herstellung von Holz-, Flecht-, Korb- und Korkwaren (ohne Möbel) - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "16.1 Säge-, Hobel- und Holzimprägnierwerke - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "16.2 Herstellung von sonstigen Holz-, Kork-, Flecht- und Korbwaren (ohne Möbel) - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "17.1 Herstellung von Holz- und Zellstoff, Papier, Karton und Pappe - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "17.2 Herstellung von Waren aus Papier, Karton und Pappe - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "18.11 Drucken von Zeitungen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "18.12 Drucken a. n. g. - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "18.13 Druck- und Medienvorstufe - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "18.14 Binden von Druckerzeugnissen u. damit verbundene Dienstleistung - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "18.2 Vervielfältigung von bespielten Ton-, Bild- und Datenträgern - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "19.1 Kokerei - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "19.2 Mineralölverarbeitung - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "20.1 Herstellung von chemischen Grundstoffen, Düngemitteln und Stickstoffverbindungen, Kunststoffen in Primärformen und synthetischem Kautschuk in Primärformen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "20.2 Herstellung von Schädlingsbekämpfungs-, Pflanzenschutz- und Desinfektionsmitteln - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "20.3 Herstellung von Anstrichmitteln, Druckfarben und Kitten - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "20.4 Herstellung von Seifen, Wasch-, Reinigungs- und Körperpflegemitteln sowie von Duftstoffen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "20.5 Herstellung von sonstigen chemischen Erzeugnissen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "20.6 Herstellung von Chemiefasern - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "21.1 Herstellung von pharmazeutischen Grundstoffen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "21.2 Herstellung von pharmazeutischen Spezialitäten und sonstigen pharmazeutischen Erzeugnissen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "22.1 Herstellung von Gummiwaren - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "22.2 Herstellung von Kunststoffwaren - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "23.1 Herstellung von Glas und Glaswaren - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "23.2 Herstellung von feuerfesten keramischen Werkstoffen und Waren - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "23.3 Herstellung von keramischen Baumaterialien - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "23.4 Herstellung von sonstigen Porzellan- und keramischen Erzeugnissen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "23.5 Herstellung von Zement, Kalk und gebranntem Gips - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "23.61 Herstellung von Erzeugnissen aus Kalksandstein für den Bau - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "23.62 Herstellung von Gipserzeugnissen für den Bau - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "23.63 Herstellung von Frischbeton (Transportbeton) - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "23.64 Herstellung von Mörtel und anderem Beton (Trockenbeton) - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "23.65 Herstellung von Faserzementwaren - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "23.69 Herstellung von sonstigen Erzeugnissen aus Beton, Zement und Gips a. n. g. - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "23.71 Industrielle Be- und Verarbeitung von Naturwerksteinen und Natursteinen - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "23.72 Steinmetzmäßige Bearbeitung von Naturwerkstein - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "23.91 Herstellung von Schleifkörpern und Schleifmitteln auf Unterlage - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "23.99 Herstellung von sonstigen Erzeugnissen aus nichtmetallischen Mineralien a. n. g. - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "24.1 Erzeugung von Roheisen, Stahl und Ferrolegierungen - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "24.2 Herstellung von Stahlrohren, Rohrform-, Rohrverschluss- und Rohrverbindungsstücken aus Stahl - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "24.4 Erzeugung und erste Bearbeitung von NE-Metallen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "24.5 Gießereien - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "25.1 Stahl- und Leichtbau - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "25.4 Herstellung von Waffen und Munition - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "25.5 Herstellung von Schmiede-, Press-, Zieh- und Stanzteilen, gewalzten Ringen und pulvermetallurgischen Erzeugnissen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "25.61.1 Oberflächenveredlung und Wärmebehandlung (ohne Galvanotechnik/elektrochemische Oberflächenbehandlung) - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "25.61.2 Oberflächenveredlung und Wärmebehandlung (Galvanotechnik/elektrochemische Oberflächenbehandlung) - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "25.62 Mechanik a. n. g. - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "25.7 Herstellung von Schneidwaren, Werkzeugen, Schlössern und Beschlägen aus unedlen Metallen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "25.9 Herstellung von sonstigen Metallwaren - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "26.1 Herstellung von elektronischen Bauelementen und Leiterplatten - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "26.2 Herstellung von Datenverarbeitungsgeräten und peripheren Geräten - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "26.3 Herstellung von Geräten und Einrichtungen der Telekommunikationstechnik - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "26.4 Herstellung von Geräten der Unterhaltungselektronik - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "26.51 Herstellung von Mess-, Kontroll-, Navigations- u. ä. Instrumenten und Vorrichtungen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "26.52 Herstellung von Uhren - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "26.53 Herstellung von Mess-, Steuer-, Automations- und Regeltechnik a. n. g. - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "26.7 Herstellung von optischen und fotografischen Instrumenten und Geräten - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "26.8 Herstellung von magnetischen und optischen Datenträgern - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "27.11 Herstellung von Elektromotoren, Generatoren und Transformatoren - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "27.12 Herstellung von Elektrizitätsverteilungs- und -schalteinrichtungen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "27.2 Herstellung von Batterien und Akkumulatoren - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "27.3 Herstellung von Kabeln und elektrischem Installationsmaterial - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "27.4 Herstellung von elektrischen Lampen und Leuchten - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "27.5 Herstellung von Haushaltsgeräten - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "27.9 Herstellung von sonstigen elektrischen Ausrüstungen und Geräten a. n. g. - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "28.11 Herstellung von Verbrennungsmotoren und Turbinen (ohne Motoren für Luft -und Straßenfahrzeuge) - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "28.12 Herstellung von hydraulischen und pneumatischen Komponenten und Systemen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "28.13 Herstellung von Pumpen und Kompressoren a. n. g. - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "28.14 Herstellung von Armaturen a. n. g. - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "28.15 Herstellung von Lagern, Getrieben, Zahnrädern und Antriebselementen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "28.16 Antriebs- und Regelungstechnik - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "28.2 Herstellung von sonstigen nicht wirtschaftszweigspezifischen Maschinen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "28.4 Herstellung von Werkzeugmaschinen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "28.9 Herstellung von Maschinen für sonstige bestimmte Wirtschaftszweige - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "29.1 Herstellung von Kraftwagen und Kraftwagenmotoren - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "29.2 Herstellung von Karosserien, Aufbauten und Anhängern - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "29.3 Herstellung von Teilen und Zubehör für Kraftwagen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "30.1 Schiff- und Bootsbau - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "30.20.1 Herstellung von Lokomotiven und anderen Schienenfahrzeugen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "30.20.2 Herstellung von Eisenbahninfrastruktur - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "30.3.1 Herstellung von Luft- und Raumfahrzeugen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "30.3.2 Herstellung von Flugzeugteilen und Zubehör - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "30.3.3 Luftfahrzeugkomponenten - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "30.3.4 Herstellung und Wartung von Turbinen für Luftfahrzeuge - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "30.3.5 Instandhaltung, Wartung und Umbau von Luftfahrzeugen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "30.3.6 Herstellung von Hubschraubern - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "30.9 Herstellung von Fahrzeugen a. n. g. - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "31.0 Herstellung von Möbeln - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "31.03 Herstellung von Matratzen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "31.09 Herstellung von sonstigen Möbeln - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "32.1 Herstellung von Münzen, Schmuck und ähnlichen Erzeugnissen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "32.2 Herstellung von Musikinstrumenten - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "32.3 Herstellung von Sportgeräten - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "32.4 Herstellung von Spielwaren - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "32.5 Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "32.9 Herstellung von Erzeugnissen a. n. g. - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "33.1 Reparatur von Metallerzeugnissen, Maschinen und Ausrüstungen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "33.2 Installation von Maschinen und Ausrüstungen a. n. g. - Gruppe II - 1,5 h",
+      "value": "1.5"
+    }
+  ],
+  "D": [
+    {
+      "text": "35.1 Elektrizitätsversorgung - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "35.3 Wärme- und Kälteversorgung - Gruppe II - 1,5 h",
+      "value": "1.5"
+    }
+  ],
+  "E": [
+    {
+      "text": "36 Wasserversorgung - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "37 Abwasserentsorgung - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "38.1 Sammlung von Abfällen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "38.21 Abfallbehandlung und -beseitigung - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "38.22 Behandlung und Beseitigung gefährlicher Abfälle - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "38.3 Rückgewinnung - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "39 Beseitigung von Umweltverschmutzungen und sonstige Entsorgung - Gruppe II - 1,5 h",
+      "value": "1.5"
+    }
+  ],
+  "F": [
+    {
+      "text": "41.2 Bau von Gebäuden - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "42.11 Bau von Straßen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "42.12.1 Bau von Bahnverkehrsstrecken - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "42.12.2 Errichtung, Wartung und Instandhaltung von elektrischen Anlagen der Bahninfrasruktur - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "42.13.1 Brückenbau - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "42.13.2 Tunnelbau - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "42.21 Rohrleitungstiefbau, Brunnenbau und Kläranlagenbau - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "42.22 Kabelnetzleitungstiefbau - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "42.23 Rohrleitungstiefbau, Brunnenbau und Kläranlagenbau, Schwerpunkt Wartung und Instandsetzung - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "42.9 Sonstiger Tiefbau - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "43.1 Abbrucharbeiten und vorbereitende Baustellenarbeiten - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "43.21 Elektroinstallation - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "43.22 Gas-, Wasser-, Heizungs- sowie Lüftungs- und Klimainstallation - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "43.29 Sonstige Bauinstallation; Elektrotechnische Großinstallation - Gruppe I - 2,5 h",
+      "value": "2.5"
+    },
+    {
+      "text": "43.3 Sonstiger Ausbau - Gruppe II - 1,5 h",
+      "value": "1.5"
+    }
+  ],
+  "G": [
+    {
+      "text": "45.1 Handel mit Kraftwagen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "45.2 Instandhaltung und Reparatur von Kraftwagen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "45.3 Handel mit Kraftwagenteilen und -zubehör - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "45.4 Handel mit Krafträdern, Kraftradteilen und -zubehör; Instandhaltung und Reparatur von Krafträdern - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "46.1 Handelsvermittlung - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "46.2 Großhandel mit landwirtschaftlichen Grundstoffen und lebenden Tieren - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "46.3 Großhandel mit Nahrungs- und Genussmitteln, Getränken und Tabakwaren - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "46.4 Großhandel mit Gebrauchs- und Verbrauchsgütern - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "46.5 Großhandel mit Geräten der Informations- und Kommunikationstechnik - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "46.6 Großhandel mit sonstigen Maschinen, Ausrüstungen und Zubehör - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "46.71 Großhandel mit festen Brennstoffen und Mineralölerzeugnissen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "46.72 Großhandel mit Erzen, Metallen und Metallhalbzeug - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "46.73 Großhandel mit Holz, Baustoffen, Anstrich mitteln und Sanitärkeramik - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "46.74 Großhandel mit Metall- und Kunststoffwaren für Bauzwecke sowie installationsbedarf für Gas, Wasser und Heizung - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "46.75 Großhandel mit chemischen Erzeugnissen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "46.76 Großhandel mit sonstigen Halbwaren - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "46.77 Großhandel mit Altmaterialien und Reststoffen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "46.9 Großhandel ohne ausgeprägten Schwerpunkt - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "47.1 Einzelhandel mit Waren verschiedener Art (in Verkaufsräumen) - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "47.2 Einzelhandel mit Nahrungs- und Genussmitteln, Getränken und Tabakwaren (in Verkaufsräumen) - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "47.3 Einzelhandel mit Motorenkraftstoffen (Tankstellen) - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "47.4 Einzelhandel mit Geräten der Informations- und Kommunikationstechnik (in Verkaufsräumen) - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "47.5 Einzelhandel mit sonstigen Haushaltsgeräten, Textilien, Heimwerker- und Einrichtungsbedarf (in Verkaufsräumen) - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "47.6 Einzelhandel mit Verlagsprodukten, Sportausrüstungen und Spielwaren (in Verkaufsräumen) - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "47.7 Einzelhandel mit sonstigen Gütern(in Verkaufsräumen) - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "47.73 Apotheken - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "47.8 Einzelhandel an Verkaufsständen und auf Märkten - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "47.9 Einzelhandel, nicht in Verkaufsräumen, an Verkaufsständen oder auf Märkten - Gruppe III - 0,5 h",
+      "value": "0.5"
+    }
+  ],
+  "H": [
+    {
+      "text": "49.1 Personenbeförderung im Eisenbahnfernverkehr - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "49.2 Güterbeförderung im Eisenbahnverkehr - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "49.3 Sonstige Personenbeförderung im Landverkehr - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "49.4 Güterbeförderung im Straßenverkehr, Umzugstransporte - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "49.5 Transport in Rohrfernleitungen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "50.1 Personenbeförderung in der See- und Küstenschifffahrt - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "50.2 Güterbeförderung in der See- und Küstenschifffahrt - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "50.3 Personenbeförderung in der Binnenschifffahrt - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "50.4 Güterbeförderung in der Binnenschifffahrt - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "51.1 Personenbeförderung in der Luftfahrt - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "51.2 Güterbeförderung in der Luftfahrt und Raumtransport - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "52.1 Lagerei - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "52.2 Erbringung von sonstigen Dienstleistungen für den Verkehr - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "52.21.2 Betrieb von Verkehrswegen für Straßenfahrzeuge - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "52.22.1 Betrieb von Wasserstraßen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "52.22.2 Betrieb von Häfen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "52.23 Erbringung von sonstigen Dienstleistungen für die Luftfahrt - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "53.1 Postdienste von Universaldienstleistungsanbietern - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "53.2 Sonstige Post-, Kurier- und Expressdienste - Gruppe II - 1,5 h",
+      "value": "1.5"
+    }
+  ],
+  "I": [
+    {
+      "text": "55.1 Hotels, Gasthöfe und Pensionen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "55.2 Ferienunterkünfte und ähnliche Beherbergungsstätten - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "55.3 Campingplätze - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "56.1 Restaurants, Gaststätten, Imbissstuben, Cafes, Eissalons u. Ä. - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "56.21 Caterer - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "56.22 Sonstige Verpflegungseinrichtungen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    }
+  ],
+  "J": [
+    {
+      "text": "58.1 Verlegen von Büchern und Zeitschriften; sonstiges Verlagswesen (ohne Software) - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "58.13 Verlegen von Zeitungen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "58.2 Verlegen von Software - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "59.1 Herstellung von Filmen und Fernsehprogrammen, deren Verleih und Vertrieb; Kinos - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "59.2 Tonstudios; Herstellung von Hörfunkbeiträgen; Verlegen von bespielten Tonträgern und Musikalien - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "60.1 Hörfunkveranstalter - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "60.2 Fernsehveranstalter - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "61.1 Leitungsgebundene Telekommunikation - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "61.2 Drahtlose Telekommunikation - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "61.3 Satellitentelekommunikation - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "61.9 Sonstige Telekommunikation - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "62 Erbringung von Dienstleistungen der Informationstechnologie - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "63.1 Datenverarbeitung, Hosting und damit verbundene Tätigkeiten; Webportale - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "63.9 Erbringung von sonstigen Informationsdienstleistungen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    }
+  ],
+  "K": [
+    {
+      "text": "64.1 Zentralbanken und Kreditinstitute - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "64.9 Sonstige Finanzierungsinstitutionen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "65.1 Versicherungen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "65.3 Pensionskassen und Pensionsfonds - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "66.1 Mit Finanzdienstleistungen verbundene Tätigkeiten - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "66.2 Mit Versicherungsdienstleistungen und Pensionskassen verbundene Tätigkeiten - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "66.3 Fondsmanagement - Gruppe III - 0,5 h",
+      "value": "0.5"
+    }
+  ],
+  "L": [
+    {
+      "text": "68.1 Kauf und Verkauf von eigenen Grundstücken, Gebäuden und Wohnungen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "68.2 Vermietung, Verpachtung von eigenen oder geleasten Grundstücken, Gebäuden und Wohnungen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "68.3 Vermittlung und Verwaltung von Grundstücken, Gebäuden und Wohnungen für Dritte - Gruppe III - 0,5 h",
+      "value": "0.5"
+    }
+  ],
+  "M": [
+    {
+      "text": "69.1 Rechtsberatung - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "69.2 Wirtschaftsprüfung und Steuerberatung; Buchführung - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "70.1 Verwaltung und Führung von Unternehmen und Betrieben - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "70.2 Public-Relations- und Unternehmensberatung - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "71.1 Architektur- und Ingenieurbüros - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "71.2 Technische, physikalische und chemische Untersuchung - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "72.1 Forschung und Entwicklung im Bereich Natur-, Ingenieur-, Agrarwissenschaften und Medizin - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "72.19 Sonstige Forschung und Entwicklung im Bereich Natur-, Ingenieur-, Agrarwissenschaften und Medizin - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "72.2 Forschung und Entwicklung im Bereich Rechts-, Wirtschafts- und Sozialwissenschaften sowie im Bereich Sprach-, Kultur- und Kunstwissenschaften - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "73.1 Werbung - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "73.2 Markt- und Meinungsforschung - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "74.1 Ateliers für Textil-, Schmuck-, Grafik- u. ä. Design - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "74.2 Fotografie und Fotolabors - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "74.9 Sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten a. n. g. - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "75 Veterinärwesen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    }
+  ],
+  "N": [
+    {
+      "text": "77.1 Vermietung von Kraftwagen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "77.2 Vermietung von Gebrauchsgütern - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "77.3 Vermietung von Maschinen, Geräten und sonstigen beweglichen Sachen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "78.1 Vermittlung von Arbeitskräften - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "78.2 Befristete Überlassung von Arbeitskräften (gewerblich) - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "78.3 Befristete Überlassung von Arbeitskräften (kaufm.-verw.) - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "79.1 Reisebüros und Reiseveranstalter - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "79.9 Erbringung sonstiger Reservierungsdienstleistungen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "80.1 Private Wach- und Sicherheitsdienste - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "80.2 Sicherheitsdienste mithilfe von Überwachungs- und Alarmsystemen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "80.3 Detekteien - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "81.21 Allgemeine Gebäudereinigung - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "81.22.9 Sonstige spezielle Reinigung von Gebäuden und Reinigung von Maschinen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "81.29.1 Reinigung von Verkehrsmitteln - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "81.29.2 Desinfektion und Schädlingsbekämpfung - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "81.29.9 Sonstige Reinigung a. n. g. - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "82.1 Sekretariats- und Schreibdienste, Copy-Shops - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "82.2 Call Center - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "82.3 Messe-, Ausstellungs- und Kongressveranstalter - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "82.91 Inkassobüros und Auskunfteien - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "82.92 Abfüllen und Verpacken - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "82.99 Erbringung sonstiger wirtschaftlicher Dienstleistungen für Unternehmen und Privatpersonen a. n. g. - Gruppe III - 0,5 h",
+      "value": "0.5"
+    }
+  ],
+  "O": [
+    {
+      "text": "84.1 Öffentliche Verwaltung - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "84.21 Auswärtige Angelegenheiten - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "84.22 Verteidigung - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "84.23.1 Justizvollzugsanstalten - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "84.23.2 Gerichte - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "84.24 Öffentliche Sicherheit und Ordnung - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "84.251 Feuerwehren - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "84.3 Sozialversicherung - Gruppe III - 0,5 h",
+      "value": "0.5"
+    }
+  ],
+  "P": [
+    {
+      "text": "85.1 Kindertageseinrichtungen2 und Vorschulen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "85.2 Grundschulen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "85.3 Weiterführende Schulen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "85.4 Tertiärer und post-sekundärer, nicht tertiärer Unterricht - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "85.5 Sonstiger Unterricht - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "85.6 Erbringung von Dienstleistungen für den Unterricht - Gruppe III - 0,5 h",
+      "value": "0.5"
+    }
+  ],
+  "Q": [
+    {
+      "text": "86.10.1 Krankenhäuser (ohne Hochschulkliniken, Vorsorge- und Rehabilitationskliniken) - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "86.10.2 Hochschulkliniken - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "86.10.3 Vorsorge- und Rehabilitationskliniken - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "86.2 Arzt- und Zahnarztpraxen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "86.9 Gesundheitswesen a. n. g. - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "87.1 Pflegeheime - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "87.2 Stationäre Einrichtungen zur psychosozialen Betreuung, Suchtbekämpfung u. Ä. - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "87.3 Altenheime; Alten- und Behindertenwohnheime - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "87.9 Sonstige Heime (ohne Erholungs- und Ferienheime) - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "88.10.1 Ambulante soziale Dienste - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "88.10.2.2 Werkstätten für Menschen mit Behinderungen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "88.9 Sonstiges Sozialwesen (ohne Heime) - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "88.91 Tagesbetreuung von Kindern mit Ausnahme von Kindertageseinrichtungen und Vorschulen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "88.99 Sonstiges Sozialwesen a. n. g. - Gruppe III - 0,5 h",
+      "value": "0.5"
+    }
+  ],
+  "R": [
+    {
+      "text": "90.01 Darstellende Kunst - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "90.02 Erbringung von Dienstleistungen für die darstellende Kunst - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "90.03 Künstlerisches und schriftstellerisches Schaffen (Journalisten, Pressefotografen) - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "90.04 Betrieb von Kultur- und Unterhaltungseinrichtungen - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "91.01 Bibliotheken und Archive - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "91.02 Museen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "91.03 Betrieb von historischen Stätten und Gebäuden und ähnlichen Attraktionen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "91.04 Botanische und zoologische Gärten sowie Naturparks - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "92 Spiel-, Wett- und Lotteriewesen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "93.1 Erbringung von Dienstleistungen des Sports - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "93.11.1 Schwimmbäder und -stadien - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "93.11.2 Betrieb von Sportanlagen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "93.21 Vergnügungs- und Themenparks - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "93.29 Erbringung von Dienstleistungen der Unterhaltung und der Erholung a. n. g. - Gruppe II - 1,5 h",
+      "value": "1.5"
+    }
+  ],
+  "S": [
+    {
+      "text": "94.1 Wirtschafts- und Arbeitgeberverbände, Berufsorganisationen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "94.2 Arbeitnehmervereinigungen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "94.9 Kirchliche Vereinigungen; politische Parteien sowie sonstige Interessenvertretungen und Vereinigungen a. n. g. - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "94.99 Sonstige Interessenvertretungen und Vereinigungen a. n. g. - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "95.1 Reparatur von Datenverarbeitungs- und Telekommunikationsgeräten - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "95.21 Reparatur von Geräten der Unterhaltungselektronik - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "95.22 Reparatur von elektrischen Haushaltsgeräten und Gartengeräten - Gruppe II - 1,5 h",
+      "value": "1.5"
+    },
+    {
+      "text": "95.23 Reparatur von Schuhen und Lederwaren - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "95.25 Reparatur von Uhren und Schmuck - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "96.01 Wäscherei und chemische Reinigung - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "96.02 Frisör- und Kosmetiksalons - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "96.03 Bestattungswesen - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "96.04 Saunas, Solarien, Bäder u. Ä. - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "96.09 Erbringung von sonstigen Dienstleistungen a. n. g. - Gruppe III - 0,5 h",
+      "value": "0.5"
+    },
+    {
+      "text": "99.00 Exterritoriale Organisation und Körperschaft - Gruppe III - 0,5 h",
+      "value": "0.5"
+    }
+  ]
+}
